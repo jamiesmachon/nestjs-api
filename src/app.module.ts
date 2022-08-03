@@ -7,7 +7,7 @@ import { ProductsModule } from './products/products.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://jsmachon:iEizNATuMjbV5N75@cluster.8acgf.mongodb.net/nestjs-api?retryWrites=true',
+      'mongodb+srv://<username>:<password>@cluster.8acgf.mongodb.net/nestjs-api?retryWrites=true',
     ),
     ProductsModule,
   ],
